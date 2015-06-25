@@ -1,0 +1,28 @@
+{
+  "name": "patchme",
+  "version": "0.0.1",
+  "description": "Based on the rsync algorithm, this utility can generate checksums, generate diffs based on checksums and patch data by applying diffs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gideonthomas/patchme.git"
+  },
+  "keywords": [
+    "rsync",
+    "diff",
+    "checksum",
+    "patch"
+  ],
+  "author": "R. Gideon Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gideonthomas/patchme/issues"
+  },
+  "homepage": "https://github.com/gideonthomas/patchme",
+  "dependencies": {
+    "MD5": "^1.2.2"
+  }
+}
